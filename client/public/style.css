@@ -1,0 +1,92 @@
+.circle {
+  position: relative;
+  left: 50vw;
+  transform: translate(-50%);
+  text-align: center;
+  width: 30vw;
+  height: 30vw;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.timerCounter {
+  color: grey;
+  padding-top: 40%;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.timerCircle {
+  position: relative;
+  left: 5vw;
+  top: 5vw;
+  height: 20vw;
+  width: 20vw;
+  border: 2px solid green;
+  border-radius: 50%;
+  display: block;
+}
+
+.inputFields {
+  text-align: center;
+  font-size: 1vw;
+}
+
+.buttons {
+  text-align: center;
+  margin: auto;
+}
+.buttons .btn {
+  font-size: 1vw;
+}
+
+#weather-low-box {
+  border-right: black solid 4px;
+  height: 40%;
+}
+.weather-low {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#weather-high-box {
+  border-left: black solid 4px;
+  height: 40%;
+}
+
+.weather-high {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (max-width: 1000px) {
+  #weather-low-box {
+    display: none;
+  }
+  #weather-high-box {
+    display: none;
+  }
+
+  .buttons .btn {
+    font-size: 4vw;
+  }
+
+  .inputFields {
+    font-size: 5vw;
+  }
+
+  .timerCounter {
+    font-size: 10vw;
+  }
+
+  .timerCircle {
+    height: 70vw;
+    width: 70vw;
+  }
+
+  .circle {
+    width: 80vw;
+    height: 80vw;
+  }
+}
