@@ -27,13 +27,13 @@ class TimerInput extends React.Component {
   render() {
     return (
       <div className="inputFields">
-        <label For="minutes">
+        <label htmlFor="minutes">
           minutes:
           <br />
           <input name="minutes" type="number" onChange={this.props.onChange} />
         </label>
         <br />
-        <label For="seconds">
+        <label htmlFor="seconds">
           seconds:
           <br />
           <input name="seconds" type="number" onChange={this.props.onChange} />
