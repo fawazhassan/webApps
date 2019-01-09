@@ -32,7 +32,7 @@ export default class Home extends Component {
             <br />
             <br />
             <button className="mx-3 btn btn-primary">
-              <Link to="/weather">
+              <Link to="/cards">
                 <a style={{ color: "white" }}>Cards</a>
               </Link>
             </button>
