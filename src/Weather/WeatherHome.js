@@ -105,7 +105,7 @@ export default class WeatherHome extends Component {
 
     axios
       .get(
-        `http://api.openweathermap.org/data/2.5/weather?q=${
+        `https://api.openweathermap.org/data/2.5/weather?q=${
           this.state.name
         }&appid=9ddfd328cdb78e6c26fd1e930c19dd6d`
       )
