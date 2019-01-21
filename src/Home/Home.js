@@ -21,18 +21,18 @@ export default class Home extends Component {
             <br />
             <br />
             <button className="m-1 btn btn-primary">
-              <Link to="/timer">
-                <a style={{ color: "white" }}>Timer</a>
+              <Link to="/timer" style={{ color: "white" }}>
+                Timer
               </Link>
             </button>
             <button className="m-1 btn btn-primary">
-              <Link to="/weather">
-                <a style={{ color: "white" }}>Weather Application</a>
+              <Link to="/weather" style={{ color: "white" }}>
+                Weather Application
               </Link>
             </button>
             <button className="m-1 btn btn-primary">
-              <Link to="/image-search">
-                <a style={{ color: "white" }}>Image Search</a>
+              <Link to="/image-search" style={{ color: "white" }}>
+                Image Search
               </Link>
             </button>
             <br />
@@ -42,8 +42,8 @@ export default class Home extends Component {
             <br />
             <br />
             <button className="m-3 btn btn-primary">
-              <Link to="/cards">
-                <a style={{ color: "white" }}>Cards</a>
+              <Link to="/cards" style={{ color: "white" }}>
+                Cards
               </Link>
             </button>
           </p>
