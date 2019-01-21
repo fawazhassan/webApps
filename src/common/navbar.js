@@ -38,6 +38,11 @@ class navbar extends Component {
                 </a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="/image-search">
+                  Image Search
+                </a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link " href="http://www.fawazhassan.com">
                   Back to Portfolio Site
                 </a>

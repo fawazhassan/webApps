@@ -5,8 +5,9 @@
   "dependencies": {
     "axios": "^0.18.0",
     "faker": "^4.1.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-responsive-modal": "^3.5.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.0.11"
   },
