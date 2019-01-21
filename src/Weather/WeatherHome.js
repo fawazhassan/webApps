@@ -37,7 +37,7 @@ class WeatherDisplay extends Component {
         <div id="icon">
           <img
             id="wicon"
-            src={`http://openweathermap.org/img/w/${
+            src={`https://openweathermap.org/img/w/${
               this.props.weatherData.weather[0].icon
             }.png`}
             alt="Weather icon"
