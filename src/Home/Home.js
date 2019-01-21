@@ -20,17 +20,17 @@ export default class Home extends Component {
             data and data retrieval, respectively.
             <br />
             <br />
-            <button className="mx-3 btn btn-primary">
+            <button className="m-1 btn btn-primary">
               <Link to="/timer">
                 <a style={{ color: "white" }}>Timer</a>
               </Link>
             </button>
-            <button className="mx-3 btn btn-primary">
+            <button className="m-1 btn btn-primary">
               <Link to="/weather">
                 <a style={{ color: "white" }}>Weather Application</a>
               </Link>
             </button>
-            <button className="mx-3 btn btn-primary">
+            <button className="m-1 btn btn-primary">
               <Link to="/image-search">
                 <a style={{ color: "white" }}>Image Search</a>
               </Link>
@@ -41,7 +41,7 @@ export default class Home extends Component {
             FakerJs.
             <br />
             <br />
-            <button className="mx-3 btn btn-primary">
+            <button className="m-3 btn btn-primary">
               <Link to="/cards">
                 <a style={{ color: "white" }}>Cards</a>
               </Link>

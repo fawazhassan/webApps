@@ -7,7 +7,7 @@ class navbar extends Component {
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <Link className="navbar-brand" to="/">
-            Fawaz Hassan | Mini Web Apps
+            Mini Web Apps
           </Link>
           <button
             className="navbar-toggler"
