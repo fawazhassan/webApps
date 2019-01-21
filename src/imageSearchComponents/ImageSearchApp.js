@@ -60,8 +60,8 @@ class ImageSearchApp extends Component {
   render() {
     return (
       <div className="container" style={{ marginTop: "10px" }}>
-        <div className="row justify-content-md-center">
-          <div className="col col-lg-6">
+        <div className="row text-align-center">
+          <div className=" col-sm-12 col-sm-offset-1 ">
             <SearchBar onSubmit={this.onSearchSubmit} />
             <FilterBar onSubmit={this.onFilterSubmit} />
           </div>

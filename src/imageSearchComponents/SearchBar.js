@@ -10,23 +10,21 @@ class SearchBar extends Component {
   };
   render() {
     return (
-      <div>
-        <form onSubmit={this.onFormSubmit}>
-          <div className="form-group">
-            <label className="h3" htmlFor="search">
-              {" "}
-              Image Search{" "}
-            </label>
-            <input
-              className="form-control"
-              name="search"
-              type="text"
-              value={this.state.term}
-              onChange={event => this.setState({ term: event.target.value })}
-            />
-          </div>
-        </form>
-      </div>
+      <form onSubmit={this.onFormSubmit}>
+        <div className="form-group">
+          <label className="h3" htmlFor="search">
+            {" "}
+            Image Search{" "}
+          </label>
+          <input
+            className="form-control"
+            name="search"
+            type="text"
+            value={this.state.term}
+            onChange={event => this.setState({ term: event.target.value })}
+          />
+        </div>
+      </form>
     );
   }
 }

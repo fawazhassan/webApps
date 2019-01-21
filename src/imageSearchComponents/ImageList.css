@@ -33,12 +33,35 @@
 }
 
 .centered {
+  display: none;
   position: absolute;
-  top: 90%;
+  top: 20px;
   left: 50%;
+  margin-top: 40px;
   transform: translate(-50%, -50%);
-  font-size: 200%;
-  mix-blend-mode: difference;
-  color: rgb(199, 201, 211);
+  color: rgb(255, 255, 255);
   font-weight: bold;
+  opacity: 0.9;
+  background-color: rgb(91, 170, 223);
+}
+
+.centered:hover {
+  display: block;
+}
+.btn:focus {
+  border-color: inherit;
+  outline: none;
+  box-shadow: none;
+}
+
+.centered a .link {
+  cursor: pointer;
+}
+
+.styles_modal__gNwvD img:hover + .centered {
+  display: block;
+}
+
+.styles_modal__gNwvD img:hover {
+  opacity: 0.8;
 }

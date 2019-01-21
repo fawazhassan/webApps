@@ -45,15 +45,19 @@ class ImageCard extends Component {
           open={this.state.open}
           onClose={this.onCloseModal}
           center
-          styles={{ width: "90vw" }}
+          styles={{ width: "80vw" }}
         >
-          <img
-            src={URL}
-            alt={AdditionalInfo.description}
-            style={{ display: "block", margin: "auto", width: "90%" }}
-          />
-
-          <div className="centered"> {AdditionalInfo.description}</div>
+          <div className="modalImage">
+            <img
+              src={URL}
+              alt={AdditionalInfo.description}
+              style={{ display: "block", margin: "auto", width: "70vw" }}
+            />
+            <button className="centered btn btn-info disabled">
+              {" "}
+              {AdditionalInfo.description}
+            </button>
+          </div>
         </Modal>
       </div>
     );
